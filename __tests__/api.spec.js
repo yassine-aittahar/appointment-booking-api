@@ -1,5 +1,5 @@
 import mongoose from 'mongoose'
-import { createBuyer, createSeller, createAppointment } from '../utils/t'
+import { createBuyer, createSeller, createAppointment } from '../utils/testUtil'
 import { generateToken } from '../utils/auth'
 import request from 'supertest'
 import { app } from '../app'

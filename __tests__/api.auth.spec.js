@@ -2,7 +2,7 @@ import request from 'supertest'
 import { app } from '../app'
 import { generateToken } from '../utils/auth'
 import mongoose from 'mongoose'
-import { createBuyer, createSeller } from '../utils/t'
+import { createBuyer, createSeller } from '../utils/testUtil'
 
 describe('API Authentication:', () => {
   const id = mongoose.Types.ObjectId()

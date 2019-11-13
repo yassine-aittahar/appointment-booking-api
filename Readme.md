@@ -86,13 +86,10 @@ Run Authentication Tests:
 |prettier|MIT|Format code|
 |supertest|MIT|Api testing|
 |jest|MIT|Simple JavaScript Testing Framework|
-<<<<<<< HEAD
 
 ## TroubleShooting
 
 If you face an error installing bcrypt package please follow instructions [in this page](https://github.com/kelektiv/node.bcrypt.js/wiki/Installation-Instructions)
-=======
->>>>>>> booking
   
 
 ## API Reference

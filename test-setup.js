@@ -1,6 +1,6 @@
 import mongoose from 'mongoose'
 import cuid from 'cuid'
-import { clearDatabase } from './utils/t'
+import { clearDatabase } from './utils/testUtil'
 
 const url =
   process.env.MONGODB_URI ||

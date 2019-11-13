@@ -1,4 +1,4 @@
-import { User } from '../UserBaseModel'
+import { User } from '../../resources/user/user.model'
 
 describe('Base User model', () => {
   describe('schema', () => {

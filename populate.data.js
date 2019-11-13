@@ -4,7 +4,7 @@ import {
   createBuyerUser,
   createSellerUser,
   createAppoint
-} from './utils/t'
+} from './utils/testUtil'
 import _ from 'lodash'
 
 // 'Populate random test data'

@@ -1,5 +1,5 @@
 import mongoose from 'mongoose'
-import { User, options } from '../../utils/UserBaseModel'
+import { User, options } from '../user/user.model'
 
 export const Buyer = User.discriminator(
   'buyer',

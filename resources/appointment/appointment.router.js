@@ -1,6 +1,6 @@
 import express from 'express'
 import appointmentControllers from './appointment.controllers'
-import { authorizationHeader, hasRole } from '../../middlewares/auth'
+import { authorizationHeader, hasRole } from '../../utils/auth'
 const router = express.Router()
 
 router.post(

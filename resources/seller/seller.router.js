@@ -1,6 +1,6 @@
 import { Router } from 'express'
 import controllers from './seller.controllers'
-import { authorizationHeader, hasRole } from '../../middlewares/auth'
+import { authorizationHeader, hasRole } from '../../utils/auth'
 const router = Router()
 
 // find sellers

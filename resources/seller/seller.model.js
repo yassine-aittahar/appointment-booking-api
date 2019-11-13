@@ -1,5 +1,5 @@
 import mongoose from 'mongoose'
-import { User, options } from '../../utils/UserBaseModel'
+import { User, options } from '../user/user.model'
 
 const sellerSchema = new mongoose.Schema({
   about: String,

@@ -1,7 +1,7 @@
 import createError from 'http-errors'
 import express from 'express'
 import path from 'path'
-import { validateCredentials, login } from './middlewares/auth'
+import { validateCredentials, login } from './utils/auth'
 import logger from 'morgan'
 import sellerRouter from './resources/seller/seller.router'
 import appointmentRouter from './resources/appointment/appointment.router'

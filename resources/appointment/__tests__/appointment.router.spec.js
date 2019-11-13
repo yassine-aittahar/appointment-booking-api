@@ -1,5 +1,5 @@
 import router from '../appointment.router'
-import { assertRouterMatch } from '../../../utils/t'
+import { assertRouterMatch } from '../../../utils/testUtil'
 
 describe('Appointment router', () => {
   test('has routes described in API design document', () => {
