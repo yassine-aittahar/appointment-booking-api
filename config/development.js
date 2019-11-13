@@ -1,0 +1,8 @@
+export const config = {
+  jwt: {
+    expiration: 86400,
+    secret:
+      'EOWrMcljCrojXMvIXwv+b1sHjRq+xwSyumbJwX39pJe+VfG2nQcIw5VKlQjLLc7ijdOSoF1qmbN66CdzmkXwyxzOFfy/vVWplk84w05YT/1RtyXwd3OO6o1QpknmO/LH8bLRtktzS2yMOF+2o9g+JaZKulRhDCPMu7wranYEj/hhqBfok96ASYukt0h4/Xv8SDIv63UMQ1il8JHEBG5puOzZfHMgaEtocAasKn0HwBccOoJaxiL/3gNMWAMp+I8lHsgRKRV9+vgrG6eUBtxnCv1zcCDnDqrHLmLi76JUBmzpqACm1JGF67VpxcCcNkhp7Pm1BDRf823TmiueBzyBPl7H0Yi/OkDAZy1tHITzQYNvCk2iK1IQDRtMlBsZPKh6aUn8V7+r0zxX/2K8MSwep5qM4VRSuM9N9n0/UcfFZLodQR6GFSUDbROR7cUTv19viKzxSqetnWwYBvV5QWhMusnbYL+9guJWh4lDd8gfw2EgjUzsCDM6ySDMHgrEZsp028NOM8yojAAxdB30btNjoiTzojwsfUBLVQBWzuDKE19E/xGsqEr+Iu73iSdphb3tOtYpuUMlxUV62UWwjyr/paFEefg3fAsZOCPC77at3aopNQXocoP/hSDqh4TqUqDoR/35VQWJsjlyuGE62wfpZMbFf8qB7oga+oYL6UQRbFI='
+  },
+  dbUri: 'mongodb://localhost:27017/booking'
+}
